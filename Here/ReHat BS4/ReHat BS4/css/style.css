@@ -1,0 +1,327 @@
+*{
+    font-family: 'Inter', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {text-decoration: none;}
+
+.grey {background-color: rgb(231, 231, 231);}
+
+.blue {color: rgb(0, 153, 255);}
+
+.dgrey {color: rgb(82, 82, 82);}
+
+.font1{font-size: 22px;}
+
+.font2{font-size: 19px;}
+
+.font3 {
+    font-size: 14px;
+    padding: 3px 0px;
+}
+
+h2{
+    font-size: 45px;
+    color: white;
+    padding: 12px 0px;
+}
+
+.commonpadding {padding: 50px 0px;}
+
+.fontspan1{
+    color: rgb(0, 153, 255);
+    font-size: 23px;
+}
+
+.fontspan2{
+    color: rgb(0, 153, 255);
+    font-size: 16px;
+}
+
+del {font-size: 14px;}
+
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot{
+    height: 35px;
+    background: no-repeat;
+    width: 35px;
+    border-radius: 50%;
+    font-size: 19px;
+    color: white;
+    border: 2px solid white;
+}
+
+
+/* ================ header ================ */
+
+header {
+    border-top: 3px solid rgb(0, 153, 255);
+}
+
+.topdiv {
+    border-bottom: 1px solid grey;
+    font-size: 14px;
+}
+
+.topdiv .nav-link {padding: 4px 10px;}
+
+.topdiv a {color: gray;}
+
+.topdiv a:hover {color: rgb(82, 82, 82);}
+
+.padd {padding-right: 3px;}
+
+.line {
+    border-left: 1px solid grey;
+    margin: 5px 0px;
+}
+
+.navbar img{max-width: 80px;}
+
+.navbar li a::after {
+    content: "";
+    width: 0;
+    height: 3px;
+    background-color: rgb(0, 153, 255);
+    margin: auto;
+    display: block;
+}
+
+.navbar li a:hover::after {
+    width: 100%;
+    transition: width 0.3s linear;
+}
+
+/* ================ frontimage ================ */
+
+.frontimage{
+    width: 100%;
+    position: relative;
+}
+
+.frontimage img{width: 100%;}
+
+.frontimage .text {
+    position: absolute;
+    transform: translate(-50%, -25%);
+    top: 25%;
+    left: 50%;
+    color: white;
+    text-align: center;
+}
+
+.frontimage .owl-nav {
+    position: absolute;
+    transform: translate(-50%, -47%);
+    top: 47%;
+    left: 50%;
+    z-index: 1;
+    font-size: 25px;
+    color: white;
+}
+
+.frontimage .form {
+    position: absolute;
+    transform: translate(-50%, -85%);
+    top: 85%;
+    left: 50%;
+    z-index: 1;
+}
+
+.frontimage a {
+    color: white;
+    background-color: rgb(0, 153, 255);
+}
+
+.frontimage i {padding-right: 7px;}
+
+.frontimage .form label {
+    display: table;
+    margin-top: 10px;
+}
+
+.frontimage .form input {width: 100%;}
+
+.frontimage .form input[type=text] {
+    padding: 1px 0px;
+}
+
+.frontimage .form select {
+    width: 100%;
+    padding: 3px 0px;
+}
+
+#hotels button{
+    margin-top: 26px;
+    padding: 7px 45px;
+    background-color: rgb(0, 153, 255);
+    border: none;
+}
+
+#flights button{
+    margin-top: 26px;
+    padding: 7px 45px;
+    background-color: rgb(0, 133, 221);
+    border: none;
+}
+
+#vacations button{
+    margin-top: 26px;
+    padding: 7px 45px;
+    background-color: rgb(0, 116, 194);
+    border: none;
+}
+
+#cars button{
+    margin-top: 26px;
+    padding: 7px 45px;
+    background-color: rgb(0, 83, 138);
+    border: none;
+}
+
+.frontimage .tab-content {
+    background-color: white;
+    padding: 10px;
+    border-radius: 0px 0px 5px 5px;
+}
+
+/* ================ warm welcome part ================ */
+
+.first aside {
+    font-size: 20px;
+    color:rgb(0, 153, 255);
+    padding: 27px 0px 12px 0px;
+}
+
+.first .box{
+    border-radius: 5px;
+    margin-top: -22px;
+}
+
+.first i {
+    color: white;
+    background-color: rgb(0, 153, 255);
+    padding: 12px;
+    margin-top: 20px;
+    font-size: 25px;
+    border: 5px solid white;
+}
+
+/* ================ best offers part ================ */
+
+.second aside{margin-bottom: 20px;}
+
+.second .owl-nav {
+    position: absolute;
+    transform: translate(-100%, -100%);
+    top: 0%;
+    right: 0%;
+    z-index: 1;
+    font-size: 25px;
+    color: black;
+    padding-bottom: 17px;
+}
+
+.second .card:hover {box-shadow: 0px 0px 11px 2px rgba(43, 43, 43, 0.705);}
+
+/* ================ Top Destinations part ================ */
+
+.third .card {margin: 20px 0px;}
+
+.third a {color: rgb(82, 82, 82);}
+
+.third a:hover{color: rgb(0, 153, 255);}
+
+.third .card:hover {box-shadow: 0px 0px 11px 2px rgba(43, 43, 43, 0.705);}
+
+/* ================ Footer part ================ */
+
+footer {
+    background-color: rgb(82, 82, 82);
+    color: rgb(231, 231, 231);
+}
+
+footer img {width: 70%;}
+
+#more {display: none;}
+
+footer .div1 dd {
+    font-size: 14px;
+    color: rgb(0, 153, 255);
+}
+
+footer dd:hover{
+    cursor: pointer;
+    color: rgb(103, 194, 255);
+}
+
+footer .div1 i {
+    font-size: 25px;
+    border-radius: 5px;
+    color: white;
+    padding: 4px 7px;
+}
+
+.lblue {background-color: rgb(0, 162, 255);}
+
+.dblue{background-color: rgb(0, 28, 153);}
+
+.pink{background-color: rgb(218, 0, 163);}
+
+.red{background-color: rgb(177, 0, 0);}
+
+.orange{background-color: rgb(255, 136, 0);}
+
+footer .div2 a {color: rgb(231, 231, 231);}
+
+footer .div2 i{padding-right: 10px; font-size: 14px;}
+
+footer .div2 a:hover {
+    color: rgb(103, 194, 255);
+    text-decoration: none;
+}
+
+footer .div3 i{
+    padding-right: 10px;
+    font-size: 22px;
+}
+
+footer .div3 a {color: rgb(0, 162, 255);}
+
+footer .div3 a:hover{
+    color: rgb(103, 194, 255);
+    text-decoration: none;
+}
+
+footer .input-container {
+    display: flex;
+    width: 100%;
+    margin-bottom: 15px;
+}
+  
+footer .icon {
+    padding: 12px;
+    background: rgb(0, 162, 255);
+    color: white;
+    min-width: 30px;
+    text-align: center;
+}
+  
+footer .input-field {
+    width: 100%;
+    padding: 6px;
+    outline: none;
+}
+  
+footer .input-field:focus {border: 2px solid rgb(0, 162, 255);}
+
+footer .input-container i{font-size: 17px;}
+  
+

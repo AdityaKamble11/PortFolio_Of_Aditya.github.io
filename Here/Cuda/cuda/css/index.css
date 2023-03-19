@@ -1,0 +1,388 @@
+* {font-family: 'Quicksand', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1200px;
+    margin: auto;
+}
+
+.commonpadding {
+    padding: 5rem 0rem;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1{
+    font-size: 40px;
+}
+
+h2{
+    font-size: 35px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+
+.desc{
+    width: 50%;
+    margin: auto;
+    padding: 15px 0px;
+    text-align: center;
+}
+
+/* ================================= Purple Part ================================== */
+
+header{
+    padding-top: 30px;
+    background-color: #87509C;
+}
+
+header img{
+    max-width: 7rem;
+}
+
+header .div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu{
+    display: flex;
+}
+
+.menu a{
+    color: white;
+    font-size: 16px;
+    display: inline-block;
+    padding: 12px 20px;
+}
+
+.banner{
+    background-color: #87509C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 30rem;
+    color: white;
+}
+
+.banner h1{
+    padding: 0rem 8rem;
+}
+
+.banner a{
+    background-color: #EB7D4B;
+    color: white;
+    padding: 15px 60px;
+    display: inline-block;
+    border-radius: 5px;
+    margin-top: 2rem;
+}
+
+/* ================================= Green Part ================================== */
+
+.services{
+    background-color: #17C2A4;
+    color: white;
+    text-align: center;
+}
+
+.services .box {
+    display: flex;
+    width: 100%;
+}
+
+.services .box1 {
+    width: 25%;
+    padding: 0px 30px;
+    display: inline-block;
+}
+
+.services .box1 p{
+    padding: 7px 7px 0px 7px;
+}
+
+.services img{
+    width: 100%;
+    padding: 3rem;
+}
+
+/* ================================= Grey Part ================================== */
+
+.team{
+    background-color: #E7F1F8;
+    color: rgb(46, 46, 46);
+    text-align: center;
+}
+
+.team .box {
+    display: flex;
+    width: 100%;
+}
+
+.team .box1 {
+    width: 25%;
+    padding: 0px 20px;
+    display: inline-block;
+}
+
+.team img{
+    width: 100%;
+    padding: 2.5rem;
+}
+
+.team h3{
+    font-weight: bold;
+}
+
+.team .box1 p{
+    padding: 7px 15px 0px 15px;
+}
+
+.team dd{
+    font-weight: bold;
+    color: #17C2A4;
+    padding: 5px 0px;
+}
+
+.team .icon{
+    display: flex;
+    justify-content: center;
+}
+
+.team .icon img{
+    max-width: 40px;
+    padding: 30px 5px 0px 5px;
+}
+
+/* ================================= White Part ================================== */
+
+.skills{
+    color: rgb(46, 46, 46);
+    text-align: center;
+}
+
+.skills .box {
+    display: flex;
+    width: 100%;
+    padding-top: 30px;
+}
+
+.skills .box1 {
+    width: 25%;
+    padding: 0px 30px;
+    display: inline-block;
+}
+
+.skills img{
+    width: 100%;
+    padding: 2rem;
+}
+
+.skills h3{
+    font-weight: bold;
+}
+
+/* ================================= Orange Part ================================== */
+
+.portfolio{
+    background-color: #FFDD99;
+    color: rgb(46, 46, 46);
+    text-align: center;
+}
+
+.portfolio .opt{
+    display: flex;
+    justify-content: center;
+}
+
+.opt a{
+    background-color: rgba(46, 46, 46, 0.219);
+    color: rgb(46, 46, 46);
+    font-weight: bold;
+    padding: 5px 20px;
+    margin: 0px 5px;
+    border-radius: 5px;
+}
+
+.opt a:hover{
+    background-color: white;
+}
+
+.portfolio .box{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.portfolio .box1 {
+    width: 50%;
+    padding: 3rem 3rem 0rem 3rem;
+    display: inline-block;
+}
+
+.portfolio img{
+    width: 100%;
+}
+
+.portfolio h3{
+    padding-top: 15px;
+}
+
+.btn1 a{
+    background-color: #17C2A4;
+    color: white;
+    padding: 15px 60px;
+    display: inline-block;
+    border-radius: 5px;
+    margin-top: 3rem;
+}
+
+/* ================================= Pink Part ================================== */
+
+.people{
+    background-color: #D74680;
+    color: white;
+}
+
+.people img{
+    max-width: 130px;
+}
+
+.people .box{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.people .box1 {
+    display: flex;
+    width: 50%;
+    padding: 3.5rem 3.5rem 0rem 3.5rem;
+}
+
+.people .box2a {
+    width: 30%;
+    display: inline-block;
+}
+.people .box2b {
+    width: 70%;
+    display: inline-block;
+}
+
+.people p{
+    line-height: 1.5rem;
+}
+
+.people dd{
+    color: #FFDD99;
+}
+
+/* ================================= Blue Part ================================== */
+
+.contact{
+    background-color: #3C5499;
+    color: white;
+    text-align: center;
+}
+
+.contact form{
+    width: 60%;
+    margin: auto;
+    padding-top: 20px;
+}
+
+.contact .box{
+    display: flex;
+    width: 100%;
+}
+
+.contact .box1 {
+    width: 50%;
+    display: inline-block;
+}
+
+.contact ::placeholder {
+    color: white;
+}
+
+.contact input[type=text], input[type=email]{
+    background-color: #273A71;
+    color: white;
+    border: none;
+    width: 22rem;
+    margin: 4px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.contact textarea{
+    background-color: #273A71;
+    color: white;
+    border: none;
+    width: 50rem;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.contact input[type=submit]{
+    background-color: #30BAE7;
+    color: white;
+    padding: 15px 60px;
+    display: inline-block;
+    border-radius: 5px;
+    margin-top: 2rem;
+    border: none;
+}
+
+/* ================================= Footer ================================== */
+
+footer{
+    background-color: #334680;
+    display: flex;
+    text-align: center;
+}
+
+footer a{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 2rem;
+    display: inline-block;
+}
+
+footer a:hover{
+    color: #30BAE7;
+}
+
+
+/* tablet view */
+ @media  screen and  (min-width: 768px) {
+
+    #firstul{
+        display: block;
+    }
+    .btn{
+        display: none;
+    }
+ }
+ @media  screen and  (min-width: 1024px) {
+    #firstul{
+        display: block;
+    }
+    .btn{
+        display: none;
+    }
+   
+ }

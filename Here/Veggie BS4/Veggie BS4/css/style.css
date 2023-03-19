@@ -1,0 +1,270 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Lora', serif;
+}
+
+.commonpadding{
+    padding: 50px 0px;
+}
+
+ul {list-style-type: none;}
+
+a {text-decoration: none;}
+
+a:hover{
+    text-decoration: none;
+}
+
+h2{
+    font-size: 34px;
+    padding-bottom: 9px;
+}
+/*======================================= HEADER =======================================*/
+
+header img{
+    max-width: 135px;
+}
+
+header .nav-link{
+    font-size: 19px;
+    color: black;
+}
+
+header li{
+    padding: 5px 15px;
+    margin: 0px 7px;
+}
+
+header{
+    margin-top: 20px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+}
+
+header li:hover{
+    background-color: rgb(239, 239, 239);
+}
+
+/*======================================= FRONT IMAGE =======================================*/
+.frontimage{
+    position: relative;
+    z-index: -1;
+}
+
+.frontimage img{
+    width: 100%;
+}
+
+.frontimage .para{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 70%;
+    text-align: center;
+    font-size: 30px;
+}
+
+.frontimage .para img{
+    max-width: 250px;
+}
+
+/*======================================= YELLOW PART =======================================*/
+.yellow{
+    background-image: url(../img/yellow_bg.jpg);
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+.yellow img{
+    max-width: 50px;
+    padding: 20px 0px;
+}
+
+.yellow .y_part{
+    padding: 0px 30px;
+}
+
+.y_part h5{
+    font-weight: bold;
+}
+
+/*======================================= SPECIALS PART =======================================*/
+.month .title img{
+    max-width: 250px;
+}
+
+.month .box{
+    width: 100%;
+}
+
+.month .box img{
+    width: 100%;
+}
+
+.month .part{
+    width: 50%;
+    background-color: rgb(240, 240, 240);
+    text-align: center;
+}
+
+.month .text{
+    padding: 22px;
+}
+
+.month .dish{
+    padding-top: 40px;
+}
+
+.month h5, aside{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.month dd{
+    padding-top: 5px;
+}
+
+.month hr{
+    width: 80px;
+    margin: auto;
+    background-color: black;
+}
+
+/*======================================= ABOUT US PART =======================================*/
+.about{
+    background-color: rgb(240, 240, 240);
+    width: 100%;
+    text-align: center;
+}
+
+.about img{
+    width: 100%;
+}
+
+.about .desc{
+    padding: 65px;
+}
+
+.desc img{
+    max-width: 250px;
+}
+
+.about p{
+    font-size: 28px;
+    padding: 40px 0px;
+}
+
+/*======================================= MENU CART PART =======================================*/
+.menu .title img{
+    max-width: 250px;
+}
+.con1{
+    border: none;
+}
+
+.menu .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: black;
+    border: 1px solid black;
+    background-color: transparent;
+}
+
+.menu .nav-link {
+    color: black;
+    font-size: 20px;
+    margin: 0px 10px;
+}
+
+.menu ul{
+    margin-top: 37px;
+}
+
+.menu .left li, .right li{
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    padding-top: 17px;
+}
+
+/*======================================= CONTACT PART =======================================*/
+
+.contact {
+    background-image: url(../img/contact-bg.png);
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.contact img{
+    max-width: 250px;
+}
+
+.contact .title{
+    text-align: center;
+}
+
+.contact h5{
+    font-weight: bold;
+}
+
+.contact a{
+    color: black;
+}
+
+.contact .part{
+    padding: 40px 0px;
+}
+
+.contact .part1{
+    text-align: left;
+    padding-right: 10px;
+}
+
+.contact .part2{
+    text-align: right;
+    padding-left: 10px;
+}
+
+.formm input, textarea{
+    width: 100%;
+    padding: 8px;
+    font-size: 17px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid black;
+    margin-top: 25px;
+}
+
+.formm textarea{
+    margin-bottom: 50px;
+}
+
+::placeholder{
+    color: black;
+}
+
+.formm button{
+    padding: 8px 25px;
+}
+
+.icon{
+    padding: 30px 0px;
+}
+
+.icon a{
+    margin-left: 20px;
+    font-size: 40px;
+}
+
+
+
+.contact button:hover.animate__animated.animate__bounce {
+    --animate-duration: 10s;
+}

@@ -1,0 +1,223 @@
+* {font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    box-sizing: border-box; margin: 0;padding: 0;}
+
+.container {width: 1200px; margin: auto;}
+
+.commonpadding {padding: 38px 0px;}
+
+p {font-size: 15px; color:rgb(0, 2, 94);}
+
+h1 {font-size: 53px; color: white; padding: 10px 0px;}
+
+h2 {font-size: 52px;color: rgb(0, 2, 94); padding: 10px 0px;}
+
+h3 {font-size: 40px;color: rgb(0, 2, 94);padding: 10px 0px;}
+
+h4 {font-size: 27px;color: rgb(0, 2, 94);padding: 10px 0px;}
+
+aside {font-size: 20px; color:rgb(0, 2, 94);padding: 8px 0px;}
+
+span {font-size: 18px; color:rgb(0, 2, 94);}
+
+.subtitle {color: rgb(31, 170, 175); letter-spacing: 1px; padding: 2px;}
+
+a {text-decoration: none;}
+
+ul{list-style-type: none; }
+
+/* ===============================header=============================== */
+
+header{width: 100%; height: auto;}
+
+header .upperline {background-color: rgb(0, 2, 94); color: white;padding: 7px; text-align: center;}
+
+header .upperline p {color: rgb(255, 208, 0); letter-spacing: 0.5px;}
+
+header .mainmenu {display: flex; padding: 7px; justify-content: space-between; text-align: center; align-items: center;}
+
+header .logo {max-width: 120px;}
+
+header .logo img {width: 100%;}
+
+header .menu {justify-content: space-evenly;}
+
+header .menu ul { display: inline-flex; font-size: 19px; padding: 0px 7px;}
+
+header .menu li a {color: rgb(0, 2, 94); padding: 15px;}
+
+header .menu li a:hover {text-shadow: 0px 0px 0.5px black;}
+
+/* ===============================banner=============================== */
+
+.banner{ width: 100%; display: flex; background-color:rgb(0, 2, 94); position: relative;}
+
+.banner .bannerimage {width: 100%; text-align: end;}
+
+.bannerimage img{height: 100vh;}
+
+.banner .text {width: 50%;margin: 70px;}
+
+.banner .text p{color: white; font-size: 18px;padding: 10px 0px}
+
+.banner .text aside{font-size: 50px;color: rgb(255, 208, 0);padding: 10px 0px}
+
+.banner .text a { border: none; background-color: rgb(255, 208, 0); padding: 10px 35px; margin: 10px 0px;
+border-radius: 50px; display: inline-block; font-size: 16px; color: white;}
+    
+.banner a:hover{ background-color: rgb(241, 186, 4);}
+
+/* ===============================1 Checkout part=============================== */
+.first {width: 100%;text-align: center;}
+
+.first .boxes{width:100%; display: flex; flex-wrap: wrap; justify-content: center;padding: 10px;}
+
+.first .box{width:32%; display: flex; padding: 10px;}
+
+.first .box .part {width: 50%;background-color: rgb(240, 240, 240);text-align: left; display: flex;}
+
+.first .box .part .text{width: 60%;padding: 22px;}
+
+.first .box .part .text aside{font-size: 18px;} 
+
+.first .text a { border: none; background-color: white; padding: 5px 15px; margin: 15px 0px;
+border-radius: 50px; display: inline-block; font-size: 16px; color: rgb(0, 2, 94);}
+        
+.first a:hover{box-shadow: 0px 0px 6px 1px grey;}
+
+.first .box .part img{width: 100%;}
+
+.first .icons {display: flex; justify-content: space-evenly; padding: 20px;}
+
+.first .icon1 {width: 13%; display: inline-block;}
+
+.first i{display: flex; font-size: 40px; color: rgb(0, 2, 94); justify-content: center;padding: 20px 0px;}
+
+/* ===============================2 Antibacterial part=============================== */
+
+.second {width: 100%; display: flex; background-color: rgb(240, 240, 240);}
+
+.second .part {width: 50%; display: flex; align-items: center;}
+
+.second .part .text {width: 60%;}
+
+.second .part .text .icon {display: flex; justify-content: space-between; padding: 15px 0px;}
+
+.second .part .text .icon i{padding-right: 9px;}
+
+.second .part .text a { border: none; background-color: rgb(255, 208, 0); padding: 10px 35px;
+margin-top: 30px; border-radius: 50px; display: inline-block; font-size: 16px; color: white;}
+        
+.second a :hover{ background-color: rgb(241, 186, 4);}
+
+.second .part video {width: 100%;}
+    
+/* ===============================3 Featured part=============================== */
+
+.third {width: 100%;text-align: center;}
+
+.third .div0 {display: flex; padding: 20px; justify-content: center;}
+
+.third .div1 {width: 19%; text-align: left; border: solid 0.1px rgb(223, 223, 223);}
+
+.third .div1 img {width: 100%;}
+
+.third span{padding: 15px 0px 0px 15px;}
+
+.third aside{padding: 10px 15px;}
+
+.third .div1 .star {display: flex; padding: 2px 0px 15px 15px;}
+
+.third .div1 .star i{color: rgb(255, 208, 0); font-size: 15px;}
+
+/* ===============================4 Effective & reliable part=============================== */
+.fourth{width: 100%;background-color: rgb(240, 240, 240); display: flex;justify-content: center;}
+
+.fourth .head {width: 40%; text-align: center;}
+
+.fourth .iconinfo {display: flex;justify-content: space-evenly;padding: 30px 30px 0px 30px;}
+
+.fourth .iconinfo .div1 {width: 30%; padding: 30px; text-align: center;}
+
+.fourth .iconinfo .div1 i{font-size: 40px; color: rgb(0, 2, 94); justify-content: center;padding: 10px;}
+
+.fourth .iconinfo .div1 aside{font-weight: bold; font-size: 22px;padding: 15px 0px;}
+/* ===============================5 From the blog part=============================== */
+
+.fifth {width: 100%;text-align: center;}
+
+.fifth .div0 {display: flex; padding: 20px; justify-content: center;}
+
+.fifth .div1 {width: 32%; text-align: left;padding: 10px;}
+
+.fifth .div1 img {width: 100%; border-radius: 5px;}
+
+.fifth span{font-size: 14px;}
+
+.fifth .div1 .text {width: 80%;}
+
+/* ===============================6 Latest reviews part=============================== */
+
+.sixth {width: 100%;text-align: center;background-color: rgb(240, 240, 240) }
+
+.sixth .div0 {display: flex; padding: 20px; justify-content: space-evenly}
+
+.sixth .div1 {width: 23%; text-align: left;background-color: white;margin: 10px;padding: 25px;}
+
+.sixth aside{padding: 15px 0px;}
+
+.sixth .div1 .star {display: flex;}
+
+.sixth .div1 .star i{color: rgb(255, 208, 0); font-size: 15px;}
+
+.sixth h3 i{color:rgb(255, 208, 0); padding: 0px 12px;}
+
+/* ===============================7 Fill up the form part=============================== */
+
+.seventh {width: 100%;}
+
+.seventh input{ width: 32.9%; padding: 12px; margin: 5px 1px; border: none;border-radius: 30px;
+background-color: rgb(240, 240, 240); font-size: 16px;}
+
+.seventh textarea{width: 100%; padding: 12px; margin: 5px 1px; border: none;border-radius: 20px;
+background-color: rgb(240, 240, 240); font-size: 16px;}
+
+.seventh a { border: none; background-color: rgb(255, 208, 0); padding: 10px 35px; margin: 5px 1px;
+border-radius: 50px; display: inline-block; font-size: 16px; color: white;}
+        
+.seventh a:hover{ background-color: rgb(241, 186, 4);}
+
+/* ===============================8 help part=============================== */
+
+.eighth {width: 100%; display: flex; background-color: rgb(240, 240, 240);}
+
+.eighth .part {width: 40%;}
+
+.eighth .part .text {width: 80%;display: block; }
+
+.eighth .part .text a { border: none; background-color: white; padding: 8px 32px; color:rgb(0, 2, 94);
+margin-top: 30px; border-radius: 50px; display: inline-block; font-size: 16px;}
+
+.eighth .part .text span{display: block;}
+
+.eighth .part h2{padding-bottom: 25px;}
+
+hr{margin: 30px 0px;}
+
+.eighth a i{font-size: 23px; padding: 0px 4px; color:rgb(0, 2, 94) ;}
+
+.eighth a :hover{text-shadow: 0px 0px 0.5px black }
+
+.eighth .part1{width:60%; padding: 20px 40px;}
+
+.eighth .part1 iframe{width: 100%;}
+
+
+/* ===============================Footer=============================== */
+
+footer{width: 100%; background-color: rgb(0, 2, 94);}
+
+footer aside {color: white;padding: 20px;font-size: 15px; text-align: center;}
+
+footer ul {width: 100%;} 
+
+footer li {width: 16.66%;}
